@@ -7,14 +7,17 @@ Ordered a gas fireplace for living room, now we have to figure out what to build
 ## Commercial Use
 If you want to use this for a commercial web site I have, in my past job, built WebGL based visualization.  I can recreate this as a WebGL app and even add textures. Drop an issue if you would like to talk about that.
 
+### View of the UI
+<img src="/assets/UI.png?raw=true" alt="drawing" width="100%"/>
+
 ## Fireplace Styles
 The varity of fireplace configurations that can be modeled is impressive. There are some examples in the json file that is read in by the OpenSCAD customizer.  From flush to the wall clad in just tile to just a beam mantel over the firebox they are all in there.
 
+### Example of Beam over Tile
+<img src="/assets/BeamOverTile.png?raw=true" alt="drawing" width="100%"/>
+
 ## Future
 I would love to recreate this in Blender and use Cycles to do some architectural renderings.  I have a library of molding profiles in another repo I want to add the ability to extrude the mouldings for the mantel which I did for a remodel of the room the fireplace is going in now. I could also add in a catalog of existing gas fireplace units so selection would be easier.  The Window placement isn't flexible so that should be fixed and the windows aren't windows.
-
-### View of the UI
-<img src="/assets/UI.png?raw=true" alt="drawing" width="100%"/>
 
 ## Customization
 The Fireplace Builder has a menu of adjsutments that can made to the model. 
