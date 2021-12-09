@@ -5,7 +5,7 @@ OpenSCAD project to parametrically build a fireplace mantel and visualize it in 
 Ordered a gas fireplace for living room, now we have to figure out what to build around it. After a lot of back and forth on features, size and placement in the room it was clear that talking wasn't working. We needed a visualization. First, tried it in Blender but everytime there was a change it required some effort and time to adjust the model which was frustrating my wife. We needed a parametric model that could be adjusted easily and the results could be seen instantly. Using OpenSCAD as the modeling platform the FirePlace Builder was born.
 
 ## Commercial Use
-If you want to use this for a commercial web site I have, in my past job, built WebGL based visualization.  I can recreate this as a WebGL app and even add textures. Drop an issue if you would like to talk about that.
+If you want to use this for a commercial web site I have, in my past job, built WebGL based visualization.  I can recreate this as a WebGL app and even add textures. Drop an issue if you would like to talk about that.  Also, this can be used to create STL models for 3D printing with a tweek or two.
 
 ### View of the UI
 <img src="/assets/UI.png?raw=true" alt="drawing" width="100%"/>
