@@ -19,6 +19,8 @@ The varity of fireplace configurations that can be modeled is impressive. There 
 ## Future
 I would love to recreate this in Blender and use Cycles to do some architectural renderings.  I have a library of molding profiles in another repo I want to add the ability to extrude the mouldings for the mantel which I did for a remodel of the room the fireplace is going in now. I could also add in a catalog of existing gas fireplace units so selection would be easier.  The Window placement isn't flexible so that should be fixed and the windows aren't windows.
 
+Does anyone have a SCAD CSG importer for blender?
+
 ## Customization
 The Fireplace Builder has a menu of adjsutments that can made to the model. 
 
