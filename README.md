@@ -1,4 +1,4 @@
-# FirePlace_Builder
+# FirePlace Builder
 OpenSCAD project to parametrically build a fireplace mantel and visualize it in a room.  Useful when planning a fireplace install or makeover.
 
 ## Background
@@ -32,10 +32,3 @@ Here are some images that will give you some clues to what the knobs are in the 
 
 ### Room Dimensions
 <img src="/assets/Fireplace Diagrams-Room Dimensions.png?raw=true" alt="drawing" width="100%"/>
-
-
-
-
-
-
-
