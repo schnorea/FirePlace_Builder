@@ -279,13 +279,27 @@ show_dims = true;
     above_y = -above_d;
     above_z = 0.01;
     
+    cutout_w = above_w * 0.9;
+    cutout_d = above_fireplace_depth * 1.1;
+    cutout_h = returnb_h;
+    
+    cutout_x = (firebox_w/2) - (cutout_w/2);
+    cutout_y = -above_d - 0.001;
+    cutout_z = 0;
+    
     if (show_above_mantel && !show_frame) {
         color("gray")
+        
+     difference() {
         translate([above_x, above_y, above_z]) 
         cube([above_w, above_d, above_h], false);
+        translate([cutout_x, cutout_y, cutout_z]) 
+        cube([cutout_w,cutout_d,cutout_h],false);
+     }
     }
 
 // Frame
+    if (show_frame) {
     // Legs floor
     frame_leg_floor_w = tile_leg_w + mantel_leg_w - mantel_front_d;
     frame_leg_floor_d = 3.5;
@@ -439,7 +453,7 @@ show_dims = true;
         color("red")
         translate([frame_wall_vert_rc_x, frame_wall_vert_y, frame_wall_vert_z]) 
         cube([frame_wall_vert_w, frame_wall_vert_d, frame_wall_vert_h], false);
-    
+    }
 
 
 
